@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Gulp first application",
   "author": "Yuriy Bogatyrenko",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "font-awesome": "fontawesome#^4.7.0"
   }
 }

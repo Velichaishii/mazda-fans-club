@@ -1,1 +1,143 @@
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap"
+@import "reset"
+@import "style-bootstrap"
+@import "mixins"
 @import "sprites"
+@import "fonts"
+
+
+
+.mb-40
+	margin-bottom: 40px
+
+.mr-10
+	margin-right: 10px
+
+.pt-40
+	padding-top: 40px
+
+.fs-0
+	font-size: 0
+
+.fs-18
+	font-size: 18px
+
+.bgc-dark-gray
+	background-color: #191919
+
+.c-white
+	color: #fff
+
+.c-gray
+	color: #9a9ea0
+
+.child-plr-0
+	margin-left: 0
+	margin-right: 0
+	div
+		padding-left: 0
+		padding-right: 0
+
+
+.btn
+	&.small-tp-gray
+		padding: 0 14px
+		border-color: #999999
+		line-height: 24px
+		letter-spacing: 1.5px
+		color: #999999
+		&:hover, &:focus, &:active
+			background-color: #999999
+			color: #fff
+		&:visited
+			&:hover, &:focus, &:active
+				background-color: #999999
+				color: #fff
+	&.gray
+		background: #191919
+		border-color: #191919
+		line-height: 38px
+		color: #fff
+		&:hover, &:focus, &:active
+			background-color: transparent
+			color: #191919
+		&:visited
+			&:hover, &:focus, &:active
+				background-color: transparent
+				color: #191919
+	&.tp-red
+		line-height: 38px
+		color: #dd0000
+		&:hover, &:focus, &:active
+			background-color: #dd0000
+			color: #fff
+		&:visited
+			&:hover, &:focus, &:active
+				background-color: #dd0000
+				color: #fff
+
+
+
+.header-s-top
+	padding-top: 4px
+	padding-bottom: 4px
+	border-bottom: 1px solid #c5c5c5
+
+.b-location
+	display: inline-block
+	vertical-align: middle
+	padding-top: 3px
+	margin-right: 38px
+	font-family: "SFUITextBold"
+	font-size: 14px
+	line-height: 18px
+	letter-spacing: 1.5px
+	color: #999999
+
+.b-location__toggle
+	color: #dd0000
+	cursor: pointer
+
+	&:hover, &:focus, &:active
+		border-bottom: 2px solid #dd0000
+	&:visited
+		&:hover, &:focus, &:active
+			border-bottom: 2px solid #dd0000
+
+.navbar-brand__content
+	display: inline-block
+	vertical-align: middle
+
+.menu-header
+	display: flex
+	height: 80px
+	align-items: center
+	justify-content: center
+
+.menu-header__list
+	padding-top: 1px
+	margin-right: 49px
+
+.item-br
+	padding-left:  13px
+	padding-right: 13px
+	border-right: 1px solid #999999
+
+	&:last-child
+		padding-right: 0
+		border-right: none
+
+.menu-header__link
+	text-transform: uppercase
+	font-family: "SFUITextBold"
+	font-size: 14px
+	letter-spacing: 1.5px
+	color: #999999
+
+
+
+
+
+
+
+@import "style-adaptive.sass"
